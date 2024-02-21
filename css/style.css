@@ -84,25 +84,29 @@
     line-height: 1;
     font-weight: 700;
 }
-.main-heading p{
+
+.main-heading p {
     color: #999999;
     font-size: 18px;
-    font-weight:400 ;
+    font-weight: 400;
 
 }
-.btn-secondary{
+
+.btn-secondary {
     background: #fd4c82 !important;
     padding: 12px 21px !important;
     border: 1px solid #fd4c82 !important;
     color: #fff !important;
 }
-.btn-info{
+
+.btn-info {
     background: #91c235 !important;
     border: 1px solid #91c235 !important;
     color: #fff !important;
     padding: 12px 19px !important;
 }
-.main-box{
+
+.main-box {
     position: relative;
     bottom: 3rem;
     width: 20%;
@@ -110,12 +114,12 @@
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-around;
-  
+
     gap: 2rem;
-    }
+}
 
 
-.box{
+.box {
     width: 34%;
     height: 100%;
     /* border: 1px solid black; */
@@ -123,22 +127,84 @@
     background-color: #fff;
     box-shadow: 1px 4px 7px gray;
     transition: all 0.4s ease;
-    
+
 }
-.circle{
+
+.circle {
     width: 80px;
     height: 80px;
     line-height: 1.3;
     border-radius: 50%;
     background: #f0f0f0
 }
-.box-content h4{
+
+.box-content h4 {
     font-weight: 700 !important;
 }
-.box-content p{
+
+.box-content p {
     color: #3b3a3a;
 }
-.box:hover{
+
+.box:hover {
     background-color: #fd4c82;
     color: #fff !important;
+}
+
+/* Welcome Section */
+
+.welcom-sec {
+    position: relative;
+    height: 80vh;
+    background: #f8f9fa;
+}
+
+.bg-2 {
+    border: 1px solid black;
+    height: 30rem;
+    width: 70%;
+    background: url(../img/about.jpg);
+    background-size: cover;
+}
+
+.well {
+    margin-top: 3rem;
+    font-weight: 700;
+    color: #fd4c82;
+    margin-bottom: 2rem;
+}
+
+.agency {
+    /* position: absolute; */
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.wel-para {
+    color: #999999;
+}
+ul{
+    list-style-type: none;
+}
+.pet-icon{
+    list-style: none;
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    background-color: #fd4c82;
+}
+.pet-icon img{
+    position: relative;
+    left: 0.7rem;
+    top: 0.4rem;
+}
+.pet-head{
+    position: relative;
+    left: 3.4rem;
+    bottom: 1.8rem;
+    
+}
+.pet-head h4{
+    font-size: 16px;
 }
